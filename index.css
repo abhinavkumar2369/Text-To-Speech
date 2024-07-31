@@ -1,0 +1,131 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #5337dd;
+    overflow: hidden;
+}
+
+
+
+
+/* ------ Box Sizing Property ------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+
+
+
+
+/* -------------- Main --------------- */
+main{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    width: 90%;
+    max-width: 350px;
+}
+
+
+
+
+/* --------------- Heading ------------ */
+main h1{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    word-spacing: 3px;
+    font-size: 1.9rem;
+    color: #1c1c1c;
+    padding: 10px 0px;
+    margin: 0px 0px 15px;
+    padding: 0px;
+}
+
+main h1 img{
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+/* ---------- Enter Text Label ----------*/
+
+.enter-text{
+    width: 100%;
+    display: block;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-text label{
+    width: 100%;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    margin-bottom: 3px;
+}
+
+.enter-text textarea{
+    width: 100%;
+    height: 125px;
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid #5337dd;
+    outline-color: #5337dd;
+    padding: 5px;
+}
+
+
+
+
+
+/* ------ Select Voice ------ */
+
+.select-voice label{
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+
+.select-voice select{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #5337dd;
+    outline-color: #5337dd;
+    margin: 0px 0px 25px;
+}
+
+
+
+
+
+/*-----------------  Button --------------*/
+main .button{
+    text-align: center;
+    background-color: #5337dd;
+    color: white;
+    padding: 8px 0px;
+    border-radius: 3px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
